@@ -1,0 +1,21 @@
+.margin{
+    margin: 50px 50px 50px 50px;
+}
+
+.liveReview{
+  width: 300px;
+}
+
+.submitclr{
+  background-color:purple;
+  color :black;
+}
+.clr{
+  color:blue;
+}
+.ng-invalid.ng-dirty {
+  border-color:red;
+}
+.ng-valid.ng-dirty {
+  border-color:green;
+}
