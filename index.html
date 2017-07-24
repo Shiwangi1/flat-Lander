@@ -13,13 +13,13 @@
   <label class="clr"> <b>Shop Nineteen</b></center></label>
   <ol class="list-group">
     <li class="list-group-item" ng-repeat="product  in store.products" ng-hide="product.soldOut">
-    <product-desc></product-desc>
+      <product-desc></product-desc>
 
-    <img ng-src="{{product.images[0].full}}" width="50" height="50px"/>
-    <br/><br/>
-<product-panel></product-panel>
-          <button ng-show="product.canPurchase"> Add to cart </button>
-          </li>
-        </ol>
-      </body>
-      </html>
+      <img ng-src="{{product.images[0].full}}" width="50" height="50px"/>
+      <br/><br/>
+      <product-panel></product-panel>
+      <button ng-show="product.canPurchase"> Add to cart </button>
+    </li>
+  </ol>
+</body>
+</html>
